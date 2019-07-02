@@ -1,0 +1,62 @@
+/**** DEFAULTS ****/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-family: sans-serif; 
+}
+
+
+ .conatiner__title{
+ 	font-size: 2em;
+ }
+
+ .container{
+ 	display: none;
+ 	text-align: center;
+ 	width: 100%;
+    min-height: 100%;
+    position: absolute;
+    padding: 1rem 2rem;
+ 	
+ }
+
+ .active{
+ 	display: block;
+ }
+
+ #home{
+ 	background-color: grey;
+ }
+
+ #list{
+ 	background-color:antiquewhite;
+ }
+
+ .list{
+ 	list-style:none; 
+ }
+
+.list__item__navlink{
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.conatiner__click{
+	padding: 1.1em 3em;
+    cursor: pointer;
+    color: white;
+    background: grey;
+}
+
+.output__texts{
+	margin: 1.2em;
+}
+
+.conatiner__output__title{
+	color: darkred;
+}
